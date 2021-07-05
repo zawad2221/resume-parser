@@ -16,7 +16,7 @@ pip install pyresparser
 - For running GUI execute:
 
 ```bash
-python resume_parser/manage.py makemigrations
+python resume_parser/manage.py makemigrations(after running if get an error try 'python -m nltk.downloader stopwords' and run the command again)
 python resume_parser/manage.py migrate
 python resume_parser/manage.py runserver
 ```
