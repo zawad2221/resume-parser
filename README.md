@@ -22,6 +22,8 @@ pip install pyresparser
 - ~/anaconda3/etc/profile.d/conda.sh (for linux > source  ~/anaconda3/etc/profile.d/conda.sh)
 - conda install spacy
 - python -m spacy download en_core_web_sm
+- python -m nltk.downloader words
+- python -m nltk.downloader stopwords
 
 ```bash
 python resume_parser/manage.py makemigrations(after running if get an error try 'python -m nltk.downloader stopwords' and run the command again)
