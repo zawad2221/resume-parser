@@ -20,6 +20,8 @@ pip install pyresparser
 -set anaconda environment variable running 'SETX PATH "%PATH%;C:\Users\uruser\Anaconda3\Scripts;C:\Users\uruser\Anaconda3"
 ' command in command prompt
 - ~/anaconda3/etc/profile.d/conda.sh (for linux > source  ~/anaconda3/etc/profile.d/conda.sh)
+- conda create -n $envName
+- conda activate $envName
 - conda install spacy
 - python -m spacy download en_core_web_sm
 - python -m nltk.downloader words
