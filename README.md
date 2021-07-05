@@ -14,7 +14,8 @@ pip install pyresparser
 - Django used
 - Easy extraction and interpretation using GUI
 - For running GUI execute:
-##requirement:
+
+## requirement:
 -install anaconda in your computer
 -set anaconda environment variable running 'SETX PATH "%PATH%;C:\Users\uruser\Anaconda3\Scripts;C:\Users\uruser\Anaconda3"
 ' command in command prompt
