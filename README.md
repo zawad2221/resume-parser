@@ -26,6 +26,7 @@ pip install pyresparser
 - python -m spacy download en_core_web_sm
 - python -m nltk.downloader words
 - python -m nltk.downloader stopwords
+- pip install -r resume_parser/requirements.txt migrate
 
 ```bash
 python resume_parser/manage.py makemigrations(after running if get an error try 'python -m nltk.downloader stopwords' and run the command again)
