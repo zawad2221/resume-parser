@@ -14,6 +14,13 @@ pip install pyresparser
 - Django used
 - Easy extraction and interpretation using GUI
 - For running GUI execute:
+##requirement:
+-install anaconda in your computer
+-set anaconda environment variable running 'SETX PATH "%PATH%;C:\Users\uruser\Anaconda3\Scripts;C:\Users\uruser\Anaconda3"
+' command in command prompt
+- ~/anaconda3/etc/profile.d/conda.sh (for linux > source  ~/anaconda3/etc/profile.d/conda.sh)
+- conda install spacy
+- python -m spacy download en_core_web_sm
 
 ```bash
 python resume_parser/manage.py makemigrations(after running if get an error try 'python -m nltk.downloader stopwords' and run the command again)
