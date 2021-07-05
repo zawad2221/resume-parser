@@ -16,8 +16,8 @@ pip install pyresparser
 - For running GUI execute:
 
 ## requirement:
--install anaconda in your computer
--set anaconda environment variable running 'SETX PATH "%PATH%;C:\Users\uruser\Anaconda3\Scripts;C:\Users\uruser\Anaconda3"
+- install anaconda in your computer
+- set anaconda environment variable running 'SETX PATH "%PATH%;C:\Users\uruser\Anaconda3\Scripts;C:\Users\uruser\Anaconda3"
 ' command in command prompt
 - ~/anaconda3/etc/profile.d/conda.sh (for linux > source  ~/anaconda3/etc/profile.d/conda.sh)
 - conda create -n $envName
